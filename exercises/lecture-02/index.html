@@ -50,65 +50,65 @@ This is another line after line break. <br>
         </ul>
     </nav>
 		
-	<!-- Тут має бути елемент заголовка що обгортає елемент заголовка 1 та парвграф. -->
+	<!-- Тут має бути елемент заголовка що обгортає елемент заголовка 1 та параграф. -->
 	<header>
-		 <h1>Welcome to...</h1>
-		 <p>Це елемент заголовка 1</p>
+		 <p>Welcome to...</p>
+		 <h1>Це елемент заголовка 1</h1>
     </header>
 
-	<change_me>
+	<p>
 	   <!-- Це початок короткого абзацу. Він має деякі  вкладені теги, щоб підкреслити/виділити частину тексту. Наприклад: -->
-	   <change_me>Це жирний текст.</change_me>
+	   <strong>Це жирний текст.</strong>
 	   І, що ще цікавіше:
-	   <change_me>Це курсив!</change_me>
-	</change_me>
+	   <em>Це курсив!</em>
+	</p>
 
 	<!-- Це розділ, що є базовим контейнером для елементів основного потоку. -->
-	<change_me>
-		<change_me>Це підзаголовок, укладений у теги "h3".</change_me>
+	<div>
+		<h3>Це підзаголовок, укладений у теги "h3".</h3>
 
-   		<change_me>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam optio expedita provident ratione itaque numquam, dolorem, at consequuntur laborum excepturi magnam culpa impedit obcaecati enim dolor totam. Assumenda, vel impedit?</change_me>
+   		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam optio expedita provident ratione itaque numquam, dolorem, at consequuntur laborum excepturi magnam culpa impedit obcaecati enim dolor totam. Assumenda, vel impedit?</p>
    
 		<!-- Наступний тег використовують для визначення рядкових елементів у документі -->
-		<p>Частка тексту <change_me style="color:#ff0000">червоного</change_me> кольору.</p>
+		<p>Частка тексту <span style="color:#ff0000">червоного</span> кольору.</p>
 		
 		
    		<!-- Тут має бути горизонтальна лінія  -->
-    	<change_me />
+    	<hr />
    
-	    <change_me>
+	    <small>
 	   		Зменшує розмір шрифта на одиницю по відношенню до розміру звичайного тексту.
-	   	</change_me>
+		</small>
 
    		<!-- Цей тег використовується для виділення цитат всередині документа. Тег має атрибут cite -->
-		<change_me cite="https://www.ukrlib.com.ua/books/printit.php?tid=1052">Но зла Юнона, суча дочка, Розкудкудакалась, як квочка, — Енея не любила — страх; Давно уже вона хотіла, Його щоб душка полетіла К чортам і щоб і дух не пах.
-		</change_me>
+		<blockquote cite="https://www.ukrlib.com.ua/books/printit.php?tid=1052">Но зла Юнона, суча дочка, Розкудкудакалась, як квочка, — Енея не любила — страх; Давно уже вона хотіла, Його щоб душка полетіла К чортам і щоб і дух не пах.
+		</blockquote>
 
 		<!-- Цей тег використовується для виділення коротких цитат.  -->
-		<change_me>Розкудкудакалась, як квочка, — Енея не любила — страх</change_me>
+		<q>Розкудкудакалась, як квочка, — Енея не любила — страх</q>
 
 		<!-- Цей тег маркує текст как цитату чи примітку на інший матеріал.  -->
-		<p>ІВАН КОТЛЯРЕВСЬКИЙ <change_me>ЕНЕЇДА</change_me></p>
+		<p>ІВАН КОТЛЯРЕВСЬКИЙ <cite>ЕНЕЇДА</cite></p>
 
    		<!-- Цей тег дозволяє зберегти оригінальне форматування.  -->
-		<change_me>
+		<pre>
 		       Но зла Юнона, суча дочка,
 		       Розкудкудакалась, як квочка, —
 		       Енея не любила — страх;
 		       Давно уже вона хотіла,
 		       Його щоб душка полетіла
 		       К чортам і щоб і дух не пах.
-		</change_me>
-	</change_me>
+		</pre>
+	</div>
 
 	<!-- Це розділ, що є нижнім колонтитулом для його найближчого предка або кореневого елемента. -->
-	<change_me>
+	<footer>
 	    <!-- container -->
 	    <div>
 		    <!-- Замінити символ © посиланням на сутність -->
-		    <p>© 2024 All rights reserved.</p>
+		    <p>&copy; 2024 All rights reserved.</p>
 	    </div>
-	</change_me>
+	</footer>
 
 
 </nav>
