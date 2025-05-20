@@ -1,0 +1,10 @@
+html { --accentColorMuted: hsl(300, 40%, 40%);
+    }
+
+/* .main-navigation a, .navigation a {
+    color: var(--accentColorMuted);
+} */
+
+a {
+    color: var(--accentColorMuted);
+}
