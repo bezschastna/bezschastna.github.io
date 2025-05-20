@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3 challenges</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<!-- 
+		Додайте тут елеиент style 
+		В сепедині style визначте селектор p з властивістю color: red;
+	-->
+    <style> 
+        body {color: red;}
+    </style>
+
+  </head>
+  <body>
+    
+	<!-- 
+		Додайте тут елеиент p з текстом This is my paragraph.
+		визначте атрибут style для тега p зі значенням color: blue;
+	-->
+
+    <p style="color: blue;">This is my paragraph.</p>
+
+	<!-- 
+		який колір буде мати текст This is my paragraph і чому.
+
+        Синій колір. Вбудований (inline) CSS стиль для елемента переважає над внутрішніми у <style>
+	-->
+
+<!-- 3. У наступному фпагменті випрвити помилки -->
+
+     <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
+
+    <p id="exciting">The most exciting paragraph on the page. One of a kind!</p>
+
+    <div class="exciting-2">The most exciting paragraph on the page. One of a kind!</div>  <!-- змінили id на інший, id має бути унікальним -->
+
+	<style> 
+    /* треба перенести в head, щоб було вірно */
+		#exciting {
+			background: #f69d3c;
+			border: 1px solid #696969;
+			padding: 10px;
+		}
+	</style>
+
+  </body>
+</html>
