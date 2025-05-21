@@ -1,4 +1,4 @@
-html { --accentColorMuted: hsl(300, 40%, 40%);
+body { --accentColorMuted: hsl(300, 40%, 40%);
     }
 
 /* .main-navigation a, .navigation a {
