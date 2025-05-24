@@ -7,9 +7,16 @@
 визначити розмір шрифта для h1, що успадковує розмір шрифта кореневого елемента, збільшений на 140 відсотків */
 
 
+/* 8. Виконайте імпорт шрифтів font-awesomeза допомогою правила @import. */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
-html {
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+
+
+/* html {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-size: 100%;
@@ -25,7 +32,7 @@ body {
 
 h1 {
     font-size: 240%;
-}
+} */
 
 /* 2. Відредагуйте файл css/main.css
 
@@ -57,4 +64,78 @@ h1, h2, h3 {
     color: green;
 }
 
+/* 5. Додайте до сторінки index.html наступну розмітку
 
+	<div>
+	<span>Outer <span>inner</span> outer</span>
+	</div>
+- Припустімо, що розмір шрифту для body встановлено на 16 пікселів. 
+- Слова «Outer» відображається з розміром 25,6 пікселів, а слово «inner» — 40,96 пікселів.
+- Всередині файла css/main.css 
+	- визначте властивсть font-size для div, вказавши значення в одиницях виміру em.
+	- визначте властивсть font-size для span, вказавши значення в одиницях виміру em. */
+
+   /* body {
+        font-size: 16px;
+    }
+
+    div {
+       font-size: 1.6em;
+    }
+
+    span {
+         font-size: 1.6em;
+     }  */
+
+
+ /* 6. Додайте до сторінки index.html наступну розмітку
+ 	<div>
+        <strong>Outer <strong>inner</strong> outer</strong>
+    </div>    
+    
+- Припустімо, що розмір шрифту для body встановлено на 16 пікселів. 
+- Всередині файла css/main.css визначте властивсть font-size для strong так, щоб всі слова мали однаковий відносний розмір, еквівалентний 25,6 пікселів.
+
+    body {
+        font-size: 16px;
+    }
+
+    strong {
+        font-size: 1.6rem;
+    } 
+    
+*/
+
+/* Відредагувати файл css/main.css
+
+Встановити властивості елемента body:
+font-family: Roboto
+font-size: 1rem
+Встановити властивість font-weight: 700 для елементів h1, h2, h3
+Встановити властивість font-size: 1.45rem для елемента h1
+Встановити властивість font-size: 1.3rem для елемента h2
+Визначити клас .list-unstyled з властивістю list-style: none
+Визначити клас .footer-social */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h1 {font-size: 1.45rem;}
+h2 {font-size: 1.3rem;}
+
+.list-unstyled {list-style: none}
+
+.footer-social a:hover { 
+  color: lightblue;
+}
+
+.footer-social i {
+  font-size: 2.5rem;
+}

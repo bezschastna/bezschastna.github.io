@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 4 challenges</title>
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/users/yuliia/desktop/bezschastna/favicon.ico" type="image/x-icon">
 
 	<link href="css/main.css" rel="stylesheet">
 
@@ -23,11 +23,60 @@
 		<p class="heading">This is a heading.</p>
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium saepe placeat quisquam, eveniet aliquam ipsum amet cupiditate repudiandae obcaecati, impedit aperiam. 
 	
+<!-- 5. Додайте до сторінки index.html наступну розмітку
+
+	<div>
+	<span>Outer <span>inner</span> outer</span>
+	</div>
+- Припустімо, що розмір шрифту для body встановлено на 16 пікселів. 
+- Слова «Outer» відображається з розміром 25,6 пікселів, а слово «inner» — 40,96 пікселів.
+- Всередині файла css/main.css 
+	- визначте властивсть font-size для div, вказавши значення в одиницях виміру em.
+	- визначте властивсть font-size для span, вказавши значення в одиницях виміру em. -->
+
+		<div>
+			<span>Outer <span class="inner text">inner</span> outer</span>
+		</div>
+
+<!-- 6. Додайте до сторінки index.html наступну розмітку
+ 	<div>
+        <strong>Outer <strong>inner</strong> outer</strong>
+    </div> -->
+
+
+		<div>
+        	<strong>Outer <strong>inner</strong> outer</strong>
+   		 </div>
+
 	</main>
-	
+
+<!-- 9. Відредагуйте файл index.html
+
+В розділі footer створіть section з атрибутом class="footer-social"
+В середині цієї секції розмістіть елемент ul з атрибутом class="list-unstyled"
+В середині ul розмістіть елементи li, кожний з яких має містити посилання на одну з соціальних мереж - facebook, twitter, github, linkedin, youtube, instagram.
+Перегляньте документацію для font-awesome, знайдіть іконки відповідних соц-мереж та вставте їх як текст посилань -->
+
 	<footer>
-		<h2 class="h2">This is a h2.</h2>
-		<p class="heading">This is a heading.</p>
+		<h2 class="h2">
+			This is a h2.
+		</h2>
+
+		<p class="heading">
+			This is a heading.
+		</p>
+
+		<section class="footer-social">
+			<ul class="list-unstyled">
+				<li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+				<li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+				<li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+				<li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+				<li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+			</ul>
+		</section>
+
 	</footer>
 
 	<p class="heading">This is a heading.</p>
