@@ -8,3 +8,65 @@ body { --accentColorMuted: hsl(300, 40%, 40%);
 a {
     color: var(--accentColorMuted);
 }
+
+.title {
+    text-align: center;
+    color: gainsboro;
+}
+
+.main-navigation {
+    display: flex;  
+    gap: 5rem;
+    font-size: 1.2rem;
+    justify-content: space-between;
+}
+
+.nav-header-links {
+    display: flex;
+    list-style: none;   
+    gap: 5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.nav-header-links li a{
+    text-decoration: none;
+    color: blue; 
+}
+
+.nav-header-links li a:hover {
+    color: rgb(10, 214, 255);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.footer-nav-links {
+    list-style: none;
+    display: inline-block;
+    text-align: left;     
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav-links li a {
+  text-decoration: none; 
+  color: blue; 
+}
+
+.footer-nav-links li a:hover  {
+    color: rgb(10, 214, 255);
+}
+
+body {
+  background-image: url('1.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center top; 
+  background-attachment: fixed; 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
