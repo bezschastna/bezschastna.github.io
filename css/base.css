@@ -8,10 +8,45 @@ body { --accentColorMuted: hsl(300, 40%, 40%);
 a {
     color: var(--accentColorMuted);
 }
+.description {
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 10px 0 10px 0;
+    line-height: 150%;
+    color: #b5acac;
+}
+
+.description-about {
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 5px 0 10px 0;
+    line-height: 150%;
+    color: #b5acac;
+}
+
+.desc-find-catalog {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 55px 0 10px 40px;
+    line-height: 150%;
+    color: #ffffff;
+    width: 40%;
+}
+
+.desc-find-catalog a {
+  color: rgb(10, 214, 255);
+  
+}
+.desc-find-catalog a:hover {
+    color: rgb(191, 227, 7);
+}
 
 .title {
     text-align: center;
     color: gainsboro;
+    font-size: 2.5rem;
+    padding: 90px 0 5px 0;
+    line-height: 150%;
 }
 
 .main-navigation {
@@ -19,6 +54,27 @@ a {
     gap: 5rem;
     font-size: 1.2rem;
     justify-content: space-between;
+     position: fixed;               
+    width: 100%;          
+    padding: 1rem 0;
+    background: linear-gradient(to right,
+   #444444 0%,
+    #555555 10%,
+    #666666 20%,
+    #777777 30%,
+    #888888 40%,
+    #999999 50%,
+    #aaaaaa 60%,
+    #bbbbbb 70%,
+    #cccccc 80%,
+    #dddddd 90%,
+    #ffffff 100%
+  );
+}
+
+.main-navigation span {
+    font-weight: bold;
+    padding: 0 16px 0 16px;
 }
 
 .nav-header-links {
@@ -27,6 +83,7 @@ a {
     gap: 5rem;
     font-size: 1.2rem;
     text-decoration: none;
+    padding: 0 16px 0 16px;
 }
 .nav-header-links li a{
     text-decoration: none;
@@ -41,6 +98,25 @@ a {
     display: flex;
     justify-content: center;
     gap: 5rem;
+    position: fixed;      
+    bottom: 0;            
+    width: 100%;          
+    background-color: white; 
+    padding: 1rem 0;
+    z-index: 999;  
+    background: linear-gradient(to right,
+    #444444 0%,
+    #555555 10%,
+    #666666 20%,
+    #777777 30%,
+    #888888 40%,
+    #999999 50%,
+    #aaaaaa 60%,
+    #bbbbbb 70%,
+    #cccccc 80%,
+    #dddddd 90%,
+    #ffffff 100%
+  );
 }
 
 .footer-nav-links {
@@ -69,4 +145,36 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.policy-links {
+  position: fixed; 
+  bottom: 150px;     
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  z-index: 998;
+  list-style: none;
+}
+
+.name {
+    color: #dddddd
+}
+
+.info-links {
+  text-align: center;
+}
+
+.info-links a {
+    color: rgb(10, 214, 255);
+    font-size: 1.4rem;
+    width: 100%; 
+}
+
+.info-links a:hover {
+    color: blue; 
 }
